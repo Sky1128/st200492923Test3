@@ -13,7 +13,7 @@ public class Product {
     private  Manufacturer manufacturer;
 
 
-    public Product(int sku, String name, double msrp, int unitInStock, int unitSold, Manufacturer manufacturer) {
+    public Product(int sku, String name, double msrp, int unitInStock,  Manufacturer manufacturer) {
         setSku(sku);
         setName(name);
         setMsrp(msrp);
